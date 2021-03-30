@@ -1,0 +1,259 @@
+/* Global CSS */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Helper Classes */
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.row {
+    display: flex;
+}
+
+.w-100 {
+    width: 100%;
+}
+.relative{
+    position: relative;
+}
+
+
+/* #container {
+
+} */
+
+/* .container {
+
+} */
+
+/* Generic CSS */
+/* Header CSS */
+#header {
+    position: absolute;
+    justify-content: space-evenly;
+}
+#main_nav{
+    margin-right: 2%;
+}
+#main_nav a{
+    display: block;
+    margin-right: 10px;
+    color:black;
+}
+.search{
+    margin-right: 30px;
+    border-right: 1px solid black;
+}
+
+.logo img{
+    width:35%
+}
+
+/* Featured Grid CSS*/
+#featured_grid{
+    
+    display: grid;
+    grid-template-columns: 49% 49%;
+    /* justify-content: space-evenly; */
+}
+.caption{
+    position: absolute;
+    top:50%;
+    left:8%;
+}
+.cell_1{
+    grid-column-start: 1;
+    grid-column-end:3;
+}
+.anim{
+    overflow: hidden;
+    
+}
+.anim img{
+    width:100%;
+}
+.anim:hover img{
+    transform:scale(1.5, 1.5);
+    transition:15s;
+    
+    background-color: rgba(0, 0, 0, 0.705);
+}
+.caption a{
+    display: block;
+    color:white;
+    width: 70%;
+    font-size: 230%;
+}
+
+.caption a h2{
+    margin: 15px 0px;
+}
+
+
+
+
+.btn{
+    border:2px solid white;
+    background-color: transparent;
+    padding:12px 42px;
+    color:white
+}
+
+.podcast{
+    background-color:#262626;
+    color:white;
+    padding-top:40px;
+    padding-bottom:60px; 
+    height:450px;
+    box-sizing: content-box;
+}
+
+.podcast .intro{
+    width:30%;
+    padding:30px 96px 30px 50px;
+}
+
+.podcast .intro h2{
+    text-transform:uppercase;
+    font-size:30px;
+}
+
+.podcast .intro button{
+    cursor:pointer;
+    background-color: transparent;
+    padding:12px 45px;
+    font-size:18px;
+    border:2px solid #fff;
+    color:white;
+    text-align: center;
+    font-weight: 700;
+    margin-top:2em;
+}
+.podcast .intro button:hover{
+    transition:0.5s;
+    background-color: white;
+    color:#262626
+}
+
+.podcast .stories{
+    width:70%;
+    overflow-x: scroll;
+}
+
+.podcast .stories .col img,
+.podcast .stories .col video{
+    height:370px;
+}
+
+.podcast .stories .col{
+    margin:10px;
+    position:relative;
+}
+
+.podcast .stories .caption{
+    position:absolute;
+    height:fit-content;
+    bottom:10%;
+    color:#262626
+}
+
+
+#country{
+    text-align:center;
+    padding:3.3em;
+    color:#262626;
+    line-height: 1.2;
+}
+#country p{
+    font-size:2em;
+    
+}
+
+#country h2{
+   
+    font-size:calc(4.9em);
+    text-transform: uppercase;
+    font-weight:300;
+}
+
+#country a{
+    color:#262626;
+    font-weight:500;
+    font-size: 2em;
+    font-weight:500;
+    
+}
+
+#country a i{
+    display: inline-block;
+    margin-right:2px;
+    
+}
+
+#discover{
+    background-color: #262626;
+    text-align: center;
+    color:white;
+    padding:1.2em 0em;
+    
+}
+
+#discover .heading{
+    text-transform:uppercase;
+   font-size:2.5em;
+}
+
+#story{
+   
+ overflow-x: scroll;
+}
+
+#story .col{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    border:10px solid white;
+    overflow: hidden;
+
+}
+#story .col img{
+    /* width:100%; */
+   
+}
+
+
+
+
+
+
+#footer {
+
+}
+
+
+
+/* Specific CSS */
